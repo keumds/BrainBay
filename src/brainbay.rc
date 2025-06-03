@@ -16,7 +16,7 @@
 #undef APSTUDIO_READONLY_SYMBOLS
 
 /////////////////////////////////////////////////////////////////////////////
-// 독일어(독일) resources
+// GERMANY resources
 
 #if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)
 LANGUAGE LANG_GERMAN, SUBLANG_GERMAN
@@ -1500,16 +1500,12 @@ BEGIN
     EDITTEXT        IDC_BF_TIMEOUT,147,117,59,12,ES_AUTOHSCROLL
 END
 
-IDD_LSLBOX DIALOGEX 0, 0, 289, 209
+IDD_LSLBOX DIALOGEX 0, 0, 289, 119
 STYLE DS_ABSALIGN | DS_SYSMODAL | DS_SETFONT | DS_SETFOREGROUND | WS_CAPTION | WS_SYSMENU
 EXSTYLE WS_EX_TOOLWINDOW | WS_EX_STATICEDGE
 CAPTION "LSL Receive"
 FONT 8, "MS Sans Serif", 0, 0, 0x1
 BEGIN
-    LTEXT           "Filetype",IDC_STATIC,24,165,25,8
-    LTEXT           "Filename",IDC_STATIC,23,146,29,8
-    GROUPBOX        "Archive File",IDC_STATIC,6,121,276,82
-    LTEXT           "Position",IDC_STATIC,25,177,26,8
     LTEXT           "Available Stream",IDC_STATIC,29,42,55,8
     LTEXT           "Device / Protocol:",IDC_STATIC,10,10,60,8
     CHECKBOX        "connected:",IDC_CONNECTED,200,39,49,15,BS_LEFTTEXT | WS_DISABLED | NOT WS_TABSTOP
@@ -1882,7 +1878,7 @@ BEGIN
         LEFTMARGIN, 6
         RIGHTMARGIN, 282
         TOPMARGIN, 6
-        BOTTOMMARGIN, 202
+        BOTTOMMARGIN, 112
     END
 END
 #endif    // APSTUDIO_INVOKED
