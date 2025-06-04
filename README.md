@@ -32,6 +32,9 @@ Version Info
   * Oscilloscope features snapshots for training reporting
   * SessionManager and Sessiontime elements for menu-based selection of design
 
+* Result video
+  https://www.youtube.com/watch?v=H7keNbwuBNU&t=9s    
+
 Link to Release and other Infos
 -------------------------------
 
@@ -55,6 +58,8 @@ Link to Release and other Infos
 * If you want to modify or extend the software, the Visual Studio 2010
   project files and all source modules are located in the 'src' folder.
 
+* LSL Library
+  https://github.com/sccn/liblsl
 
 ## Installing and Using BrainBay under Linux:
 
